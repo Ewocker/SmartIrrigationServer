@@ -16,7 +16,8 @@ body {
 		background: url(../images/water-login/water-login-1080.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
-		-webkit-font-smoothing: antialiased;
+		background-position: center;
+		/*-webkit-font-smoothing: antialiased;*/
 	}
 
 	/* Landscape-orientation screens greater than 1080p */
@@ -24,7 +25,8 @@ body {
 		background: url(../images/water-login/water-login.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
-		-webkit-font-smoothing: antialiased;
+		background-position: center;
+		/*-webkit-font-smoothing: antialiased;*/
 	}
 
 	/* Portrait-orientation screens up to 1080p */
@@ -32,7 +34,8 @@ body {
 		background: url(../images/water-login/water-login-1080-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
-		-webkit-font-smoothing: antialiased;
+		background-position: center;
+		/*-webkit-font-smoothing: antialiased;*/
 	}
 
 	/* Portrait-orientation screens larger than 1080p */
@@ -40,7 +43,8 @@ body {
 		background: url(../images/water-login/water-login-1440p-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
-		-webkit-font-smoothing: antialiased;
+		background-position: center;
+		/*-webkit-font-smoothing: antialiased;*/
 	}
 }
 
