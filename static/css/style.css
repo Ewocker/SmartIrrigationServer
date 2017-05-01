@@ -4,7 +4,7 @@
 body {
 	font-family: Helvetica;
 	/* Landscape-orientation screens up to 1080p */
-	@media only screen and (max-width: 1920) and (max-height: 1080){
+	@media (max-width: 1920) and (max-height: 1080){
 		background: url(../images/water-login/water-login-1080.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
@@ -13,7 +13,7 @@ body {
 	}
 
 	/* Landscape-orientation screens greater than 1080p */
-	@media only screen and (min-width: 1921) and (min-height: 1081){
+	@media (min-width: 1921) and (min-height: 1081){
 		background: url(../images/water-login/water-login.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
@@ -22,7 +22,7 @@ body {
 	}
 
 	/* Portrait-orientation screens up to 1080p */
-	@media only screen and (max-width: 1080) and (max-height: 1920){
+	@media (max-width: 1080) and (max-height: 1920){
 		background: url(../images/water-login/water-login-1080-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
@@ -31,7 +31,7 @@ body {
 	}
 
 	/* Portrait-orientation screens larger than 1080p */
-	@media only screen and (min-width: 1081) and (min-height: 1921){
+	@media (min-width: 1081) and (min-height: 1921){
 		background: url(../images/water-login/water-login-1440p-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
