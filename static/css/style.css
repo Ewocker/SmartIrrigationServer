@@ -3,14 +3,6 @@
 
 body {
 	font-family: Helvetica;
-
-	background: url(../images/water-login.jpg) #eee;
-	background-repeat:no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover cover;
-
-
 	/* Landscape-orientation screens up to 1080p */
 	@media only screen and (max-width: 1920) and (max-height: 1080){
 		background: url(../images/water-login/water-login-1080.jpg) #eee;
