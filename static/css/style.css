@@ -6,44 +6,42 @@ body {
 
 	background: url(../images/water-login.jpg) #eee;
 	background-repeat:no-repeat;
-	background-position:center;
-	background-attachment:fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover cover;
 
-	/* Landscape-orientation screens up to 1080p 
+
+	/* Landscape-orientation screens up to 1080p */
 	@media only screen and (max-width: 1920) and (max-height: 1080){
-		background: url(../images/water-login.jpg) #eee;
+		background: url(../images/water-login/water-login-1080.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		-webkit-font-smoothing: antialiased;
 	}
 
-	/* Landscape-orientation screens greater than 1080p 
+	/* Landscape-orientation screens greater than 1080p */
 	@media only screen and (min-width: 1921) and (min-height: 1081){
-		background: url(../images/water-login.jpg) #eee;
+		background: url(../images/water-login/water-login.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		-webkit-font-smoothing: antialiased;
 	}
 
-	/* Portrait-orientation screens up to 1080p
+	/* Portrait-orientation screens up to 1080p */
 	@media only screen and (max-width: 1080) and (max-height: 1920){
-		background: url(../images/water-login.jpg) #eee;
+		background: url(../images/water-login/water-login-1080-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		-webkit-font-smoothing: antialiased;
 	}
 
-	/* Portrait-orientation screens larger than 1080p 
-	@media only screen and (min-width: 1081) and (max-height: 1921){
-		background: url(../images/water-login.jpg) #eee;
+	/* Portrait-orientation screens larger than 1080p */
+	@media only screen and (min-width: 1081) and (min-height: 1921){
+		background: url(../images/water-login/water-login-1440p-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		-webkit-font-smoothing: antialiased;
-	}*/
+	}
 }
 
 
