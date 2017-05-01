@@ -3,41 +3,74 @@
 
 body {
 	font-family: Helvetica;
-	/* Landscape-orientation screens up to 1080p */
+
+	@media screen and (min-aspect-ratio: 1/1) and (max-height:1080){
+		background: url(../images/water-login/water-login-1080.jpg) #eee;
+		background-size:cover cover;
+		background-repeat:no-repeat;
+		background-position: center;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	@media screen and (min-aspect-ratio: 1/1) and (min-height:1081){
+		background: url(../images/water-login/water-login.jpg) #eee;
+		background-size:cover cover;
+		background-repeat:no-repeat;
+		background-position: center;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	@media screen and (max-aspect-ratio: 1/1) and (max-height: 1920){
+		background: url(../images/water-login/water-login-1080-mobile.jpg) #eee;
+		background-size:cover cover;
+		background-repeat:no-repeat;
+		background-position: center;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	@media screen and (max-aspect-ratio: 1/1) and (min-height: 1921){
+		background: url(../images/water-login/water-login-1440-mobile.jpg) #eee;
+		background-size:cover cover;
+		background-repeat:no-repeat;
+		background-position: center;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	/* Landscape-orientation screens up to 1080p 
 	@media (max-width: 1920) and (max-height: 1080){
 		background: url(../images/water-login/water-login-1080.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		background-position: center;
-		/*-webkit-font-smoothing: antialiased;*/
-	}
+		/*-webkit-font-smoothing: antialiased;
+	}*/
 
-	/* Landscape-orientation screens greater than 1080p */
+	/* Landscape-orientation screens greater than 1080p 
 	@media (min-width: 1921) and (min-height: 1081){
 		background: url(../images/water-login/water-login.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		background-position: center;
-		/*-webkit-font-smoothing: antialiased;*/
-	}
+		/*-webkit-font-smoothing: antialiased;
+	}*/
 
-	/* Portrait-orientation screens up to 1080p */
+	/* Portrait-orientation screens up to 1080p 
 	@media (max-width: 1080) and (max-height: 1920){
 		background: url(../images/water-login/water-login-1080-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		background-position: center;
-		/*-webkit-font-smoothing: antialiased;*/
-	}
+		/*-webkit-font-smoothing: antialiased;
+	}*/
 
-	/* Portrait-orientation screens larger than 1080p */
+	/* Portrait-orientation screens larger than 1080p 
 	@media (min-width: 1081) and (min-height: 1921){
 		background: url(../images/water-login/water-login-1440p-mobile.jpg) #eee;
 		background-size:cover cover;
 		background-repeat:no-repeat;
 		background-position: center;
-		/*-webkit-font-smoothing: antialiased;*/
-	}
+		/*-webkit-font-smoothing: antialiased;
+	}*/
 }
 
 
